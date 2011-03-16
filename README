@@ -1,13 +1,13 @@
 README for netscan software
 ===========================
-written by will urbanski [urbanski@vt.ed]
+written by will urbanski [urbanski@vt.edu]
 
 start-netscan.sh: this is the master netscan script. It scans for each port in ports.lst on the IP range given as an arg
 scan-for-port.sh: this is the scanner script. it has two args, the range and the port. It writes to the 'netscan' mysql db on your server of choice
 
 
 INSTALLATION:
-* Configure the last line in scan-for-port.sh to match your database server configuration
+* Configure scan-for-port.sh, make-history.sh to match your database server configuration
 * Import the tables in tables.sql to get the correct db format
 
 USAGE:
